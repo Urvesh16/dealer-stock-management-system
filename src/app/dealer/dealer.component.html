@@ -1,0 +1,60 @@
+<div class="dealer-container">
+    <h2>Dealer Details</h2>
+  
+    <!-- Dealer List -->
+    <div class="dealer-list">
+      <h3>Dealer List</h3>
+      <ul>
+        <li *ngFor="let dealer of dealers">
+          <div class="dealer-info">
+            <div>
+              <strong>Name:</strong> {{ dealer.name }}
+            </div>
+            <div>
+              <strong>Email:</strong> {{ dealer.email }}
+            </div>
+            <div>
+              <strong>Contact Number:</strong> {{ dealer.contactNo }}
+            </div>
+            <div>
+                <strong>Address:</strong> {{ dealer.address }}
+              </div>
+              <div>
+                <strong>Created/Update Date:</strong> {{ dealer.createdDate | date: 'dd.MM.yyyy HH:mm:ss' }}
+              </div>
+             
+          </div>
+          <div class="dealer-actions">
+          
+            <button (click)="editDealer(dealer)">Edit</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Dealer Form -->
+    <div class="dealer-form">
+      <h3>{{ isEditing ? 'Edit Dealer' : 'Add Dealer' }}</h3>
+      <form (ngSubmit)="submitForm()" #dealerForm="ngForm">
+        <div class="form-group">
+         <div class="flex"> <label for="name">Name:</label><label class="required-label">*</label> </div>
+          <input type="text" id="name" name="name" [(ngModel)]="dealer.name" required>
+        </div>
+        <div class="form-group">
+          <div class="flex"> <label for="email">Email:</label><label class="required-label">*</label> </div>
+          <input type="email" id="email" name="email" [(ngModel)]="dealer.email" required>
+        </div>
+        <div class="form-group">
+          <div class="flex">  <label for="contactNo">Contact Number:</label><label class="required-label">*</label> </div>
+          <input type="text" id="contactNo" name="contactNo" [(ngModel)]="dealer.contactNo" required>
+        </div>
+        <div class="form-group">
+          <div class="flex">   <label for="address">Address:</label><label class="required-label">*</label> </div>
+            <input type="text" id="address" name="address" [(ngModel)]="dealer.address" required>
+          </div>
+          
+          
+        <button type="submit" [ngStyle]="{'background-color': !dealerForm.form.valid ? '#ddd' : '#428bca ', 'color': !dealerForm.form.valid ? '#666' : 'white', 'cursor': !dealerForm.form.valid ? 'not-allowed' : 'pointer'}" [disabled]="!dealerForm.form.valid">{{ isEditing ? 'Update Dealer' : 'Add Dealer' }}</button>
+      </form>
+    </div>
+  </div>

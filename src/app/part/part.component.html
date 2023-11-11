@@ -1,0 +1,61 @@
+<div class="part-container">
+    <h2>Part Details</h2>
+  
+    <!-- Part List -->
+    <div class="part-list">
+      <h3>Part List</h3>
+      <ul>
+        <li *ngFor="let part of parts">
+          <div class="part-info">
+            <div>
+              <strong>Name:</strong> {{ part.name }}
+            </div>
+            <div>
+              <strong>Description:</strong> {{ part.description }}
+            </div>
+            <div>
+              <strong>Stock Quantity:</strong> {{ part.stockQuantity | number | decimalSpace }}
+            </div>
+            <div>
+              <strong>Created/Update Date:</strong> {{ part.createdDate | date: 'dd.MM.yyyy HH:mm:ss' }}
+            </div>
+            <div>
+              <strong>Dealer:</strong> {{ getDealerName(part.dealerId) }}
+            </div>
+          </div>
+          <div class="part-actions">
+            <button (click)="editPart(part)">Edit</button>
+            <button  class="mrt12" (click)="deletePart(part)">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Part Form -->
+    <div class="part-form">
+      <h3>{{ isEditing ? 'Edit Part' : 'Add Part' }}</h3>
+      <form (ngSubmit)="submitForm()" #partForm="ngForm">
+        <div class="form-group">
+          <div class="flex"> <label for="dealerId">Dealer:</label><label class="required-label">*</label></div>
+          <select id="dealerId" name="dealerId" [(ngModel)]="part.dealerId" required>
+            <option value="0" disabled>Select a Dealer</option>
+            <option *ngFor="let dealer of dealers" [value]="dealer.id">{{ dealer.name }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <div class="flex">  <label for="name">Name:</label><label class="required-label">*</label></div>
+          <input type="text" id="name" name="name" [(ngModel)]="part.name" required>
+        </div>
+        <div class="form-group">
+          <div class="flex"><label for="description">Description:</label><label class="required-label">*</label></div>
+          <textarea id="description" name="description" [(ngModel)]="part.description" required></textarea>
+        </div>
+        <div class="form-group">
+          <div class="flex"><label for="stockQuantity">Stock Quantity:</label><label class="required-label">*</label></div>
+          <input type="number" id="stockQuantity" name="stockQuantity" [(ngModel)]="part.stockQuantity" required>
+        </div>
+        <button type="submit" [ngStyle]="{'background-color': !(partForm.form.valid && part.dealerId>0 && part.stockQuantity>0) ? '#ddd' : '#428bca ', 'color': !(partForm.form.valid  && part.dealerId>0 && part.stockQuantity>0)? '#666' : 'white', 'cursor': !(partForm.form.valid  && part.dealerId>0 && part.stockQuantity>0) ? 'not-allowed' : 'pointer'}" [disabled]="!(partForm.form.valid  &&  part.stockQuantity>0)  ">{{ isEditing ? 'Update Part' : 'Add Part' }}</button>
+      </form>
+    </div>
+  </div>
+  

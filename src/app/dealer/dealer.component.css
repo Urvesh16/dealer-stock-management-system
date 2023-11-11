@@ -1,0 +1,95 @@
+.dealer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dealer-list {
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dealer-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #357ebd;
+  }
+  
+  .dealer-form {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .dealer-form h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #5bc0de;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #46b8da;
+  }

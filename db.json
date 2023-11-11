@@ -1,0 +1,1080 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "dealer",
+      "password": "dealer",
+      "role": "dealer"
+    }
+  ],
+  "logindetails": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:26:00",
+      "id": 1
+    },
+    {
+      "username": "dealer",
+      "password": "dealer",
+      "LoggedInDate": "09/11/2023, 20:26:16",
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:26:26",
+      "id": 3
+    },
+    {
+      "username": "admin221",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:26:36",
+      "id": 4
+    },
+    {
+      "username": "admin221",
+      "password": "admin21212",
+      "LoggedInDate": "09/11/2023, 20:26:38",
+      "id": 5
+    },
+    {
+      "username": "admin2212121",
+      "password": "admin2121221212121",
+      "LoggedInDate": "09/11/2023, 20:26:41",
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:26:57",
+      "id": 7
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:29:07",
+      "id": 8
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:34:58",
+      "id": 9
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:35:52",
+      "id": 10
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:36:07",
+      "id": 11
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:37:24",
+      "id": 12
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:38:24",
+      "id": 13
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:39:11",
+      "id": 14
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:40:57",
+      "id": 15
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:41:16",
+      "id": 16
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:42:54",
+      "id": 17
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:44:21",
+      "id": 18
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:45:13",
+      "id": 19
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:46:08",
+      "id": 20
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:46:49",
+      "id": 21
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:51:35",
+      "id": 22
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 20:58:01",
+      "id": 23
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:01:08",
+      "id": 24
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:04:03",
+      "id": 25
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:06:35",
+      "id": 26
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:07:18",
+      "id": 27
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:08:10",
+      "id": 28
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:08:46",
+      "id": 29
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:10:15",
+      "id": 30
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:13:01",
+      "id": 31
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:20:05",
+      "id": 32
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:22:27",
+      "id": 33
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:24:44",
+      "id": 34
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:25:34",
+      "id": 35
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:28:32",
+      "id": 36
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:30:48",
+      "id": 37
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:33:27",
+      "id": 38
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:35:04",
+      "id": 39
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "09/11/2023, 21:37:15",
+      "id": 40
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 07:51:11",
+      "id": 41
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 07:51:48",
+      "id": 42
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 07:53:14",
+      "id": 43
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:02:30",
+      "id": 44
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:07:41",
+      "id": 45
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:09:40",
+      "id": 46
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:12:11",
+      "id": 47
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:16:41",
+      "id": 48
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:18:30",
+      "id": 49
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:26:04",
+      "id": 50
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:27:18",
+      "id": 51
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:28:50",
+      "id": 52
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:30:17",
+      "id": 53
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:32:05",
+      "id": 54
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:41:09",
+      "id": 55
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:46:05",
+      "id": 56
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:47:55",
+      "id": 57
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:48:41",
+      "id": 58
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:51:01",
+      "id": 59
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:53:31",
+      "id": 60
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 08:56:04",
+      "id": 61
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:15:31",
+      "id": 62
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:16:29",
+      "id": 63
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:23:47",
+      "id": 64
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:25:14",
+      "id": 65
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:27:35",
+      "id": 66
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:27:55",
+      "id": 67
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:28:16",
+      "id": 68
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:31:35",
+      "id": 69
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:32:43",
+      "id": 70
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:34:20",
+      "id": 71
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 09:40:51",
+      "id": 72
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 19:25:51",
+      "id": 73
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 19:35:06",
+      "id": 74
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:00:26",
+      "id": 75
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:12:50",
+      "id": 76
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:13:20",
+      "id": 77
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:15:22",
+      "id": 78
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:16:20",
+      "id": 79
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:17:56",
+      "id": 80
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:20:12",
+      "id": 81
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:21:33",
+      "id": 82
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:22:24",
+      "id": 83
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:25:17",
+      "id": 84
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:27:37",
+      "id": 85
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:32:58",
+      "id": 86
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:35:00",
+      "id": 87
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:37:30",
+      "id": 88
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:38:06",
+      "id": 89
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:38:23",
+      "id": 90
+    },
+    {
+      "username": "dealer",
+      "password": "dealer",
+      "LoggedInDate": "10/11/2023, 20:40:42",
+      "id": 91
+    },
+    {
+      "username": "dealer",
+      "password": "dealer",
+      "LoggedInDate": "10/11/2023, 20:40:46",
+      "id": 92
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:40:51",
+      "id": 93
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:42:00",
+      "id": 94
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:42:20",
+      "id": 95
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:42:36",
+      "id": 96
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:43:55",
+      "id": 97
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:49:34",
+      "id": 98
+    },
+    {
+      "username": "dealer",
+      "password": "dealer",
+      "LoggedInDate": "10/11/2023, 20:50:18",
+      "id": 99
+    },
+    {
+      "username": "dealer",
+      "password": "dealer",
+      "LoggedInDate": "10/11/2023, 20:51:20",
+      "id": 100
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:51:41",
+      "id": 101
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:52:14",
+      "id": 102
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:54:10",
+      "id": 103
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:55:04",
+      "id": 104
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:57:58",
+      "id": 105
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:59:20",
+      "id": 106
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 20:59:33",
+      "id": 107
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 21:02:05",
+      "id": 108
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 21:07:49",
+      "id": 109
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 21:39:09",
+      "id": 110
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 21:43:43",
+      "id": 111
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 21:46:58",
+      "id": 112
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 22:56:45",
+      "id": 113
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 23:02:16",
+      "id": 114
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 23:06:27",
+      "id": 115
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "10/11/2023, 23:36:49",
+      "id": 116
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:52:45",
+      "id": 117
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:52:46",
+      "id": 118
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:52:46",
+      "id": 119
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:52:47",
+      "id": 120
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:52:48",
+      "id": 121
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:53:21",
+      "id": 122
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:54:10",
+      "id": 123
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:54:42",
+      "id": 124
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:55:33",
+      "id": 125
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:55:34",
+      "id": 126
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:55:38",
+      "id": 127
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:55:52",
+      "id": 128
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:56:16",
+      "id": 129
+    },
+    {
+      "username": "",
+      "password": "",
+      "LoggedInDate": "10/11/2023, 23:57:46",
+      "id": 130
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "11/11/2023, 00:00:13",
+      "id": 131
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "LoggedInDate": "11/11/2023, 00:08:42",
+      "id": 132
+    }
+  ],
+  "dealers": [
+    {
+      "id": 1,
+      "name": "Tom Arne",
+      "address": "21212121",
+      "contactNo": "56789023451",
+      "email": "tom@gmail.com",
+      "createdDate": "09.11.2023 20:51:45"
+    },
+    {
+      "id": 2,
+      "name": "Dhaval",
+      "address": "test data",
+      "contactNo": "6721211",
+      "email": "Gandhi@gmail.com",
+      "createdDate": "09.11.2023 20:51:43"
+    },
+    {
+      "id": 3,
+      "name": "Urvesh",
+      "address": "2121219291",
+      "contactNo": "27127297",
+      "email": "urvsh@gmail.com",
+      "createdDate": "09.11.2023 20:51:59"
+    },
+    {
+      "id": 4,
+      "name": "King",
+      "address": "tyn",
+      "contactNo": "1121",
+      "email": "king@gmail.com",
+      "createdDate": "09.11.2023 21:37:03"
+    },
+    {
+      "id": 5,
+      "name": "Arpan",
+      "address": "21",
+      "contactNo": "21",
+      "email": "arpna@gmail.com",
+      "createdDate": "10.11.2023 08:56:52"
+    },
+    {
+      "id": 6,
+      "name": "Diwali",
+      "address": "21212",
+      "contactNo": "212",
+      "email": "diwali@gmail.com",
+      "createdDate": "10.11.2023 20:38:44"
+    },
+    {
+      "id": 7,
+      "name": "M.S Shah",
+      "address": "2 ihih",
+      "contactNo": "7889991212",
+      "email": "Ty@gmail.com",
+      "createdDate": "11.11.2023 00:09:20"
+    }
+  ],
+  "mechanics": [
+    {
+      "id": 1,
+      "dealerId": "1",
+      "name": "Rune",
+      "mobileNo": "391279127",
+      "email": "rune@gma2il.com",
+      "birthDate": "2023-11-09",
+      "createdDate": "09.11.2023 21:10:46"
+    },
+    {
+      "id": 2,
+      "dealerId": "2",
+      "name": "King",
+      "mobileNo": "1267",
+      "email": "king@gmail.com",
+      "birthDate": "2023-11-09",
+      "createdDate": "09.11.2023 21:13:23"
+    },
+    {
+      "id": 3,
+      "dealerId": "3",
+      "name": "hakun",
+      "mobileNo": "39279",
+      "email": "hakun@gmail.com",
+      "birthDate": "2023-11-09",
+      "createdDate": "09.11.2023 21:20:50"
+    },
+    {
+      "id": 4,
+      "dealerId": "7",
+      "name": "Ky",
+      "mobileNo": "2121",
+      "email": "ky@gmail.com",
+      "birthDate": "2023-11-11",
+      "createdDate": "11.11.2023 00:09:41"
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "dealerId": "1",
+      "name": "Warranty",
+      "description": "Warranty value",
+      "stockQuantity": 895,
+      "createdDate": "09.11.2023 21:23:43"
+    },
+    {
+      "id": 2,
+      "dealerId": "2",
+      "name": "Service",
+      "description": "service",
+      "stockQuantity": 78,
+      "createdDate": "09.11.2023 21:23:57"
+    },
+    {
+      "id": 3,
+      "dealerId": "3",
+      "name": "Knife",
+      "description": "knife fata",
+      "stockQuantity": 222,
+      "createdDate": "09.11.2023 21:24:17"
+    },
+    {
+      "id": 4,
+      "dealerId": "1",
+      "name": "Value Z",
+      "description": "2121",
+      "stockQuantity": 1212,
+      "createdDate": "09.11.2023 21:26:59"
+    },
+    {
+      "id": 5,
+      "dealerId": "2",
+      "name": "Hot spy",
+      "description": "2",
+      "stockQuantity": 12,
+      "createdDate": "09.11.2023 21:27:17"
+    },
+    {
+      "id": 6,
+      "dealerId": "3",
+      "name": "Time Watch",
+      "description": "212",
+      "stockQuantity": 122,
+      "createdDate": "09.11.2023 21:27:42"
+    },
+    {
+      "id": 7,
+      "dealerId": "1",
+      "name": "CheckMeter",
+      "description": "21212",
+      "stockQuantity": 12,
+      "createdDate": "09.11.2023 21:34:16"
+    },
+    {
+      "id": 8,
+      "dealerId": "3",
+      "name": "stest",
+      "description": "313",
+      "stockQuantity": 12.55,
+      "createdDate": "10.11.2023 21:08:07"
+    },
+    {
+      "id": 9,
+      "dealerId": "1",
+      "name": "wq",
+      "description": "11",
+      "stockQuantity": 600,
+      "createdDate": "10.11.2023 21:44:16"
+    },
+    {
+      "id": 10,
+      "dealerId": "7",
+      "name": "MS Part",
+      "description": "21",
+      "stockQuantity": 122.89,
+      "createdDate": "11.11.2023 00:10:02"
+    }
+  ],
+  "cart": [
+    {
+      "part": {
+        "id": 1,
+        "dealerId": "1",
+        "name": "Warranty",
+        "description": "Warranty value",
+        "stockQuantity": 895,
+        "createdDate": "09.11.2023 21:23:43"
+      },
+      "mechanicId": "3",
+      "dealerId": "1",
+      "quantity": 67,
+      "createdDate": "10.11.2023 08:41:23",
+      "id": 3
+    },
+    {
+      "part": {
+        "id": 4,
+        "dealerId": "1",
+        "name": "Value Z",
+        "description": "2121",
+        "stockQuantity": 1212,
+        "createdDate": "09.11.2023 21:26:59"
+      },
+      "mechanicId": "2",
+      "dealerId": "1",
+      "quantity": 89,
+      "createdDate": "10.11.2023 08:41:33",
+      "id": 4
+    },
+    {
+      "part": {
+        "id": 3,
+        "dealerId": "3",
+        "name": "Knife",
+        "description": "knife fata",
+        "stockQuantity": 222,
+        "createdDate": "09.11.2023 21:24:17"
+      },
+      "mechanicId": "1",
+      "dealerId": "3",
+      "quantity": 1,
+      "createdDate": "10.11.2023 20:49:55",
+      "id": 6
+    },
+    {
+      "part": {
+        "id": 1,
+        "dealerId": "1",
+        "name": "Warranty",
+        "description": "Warranty value",
+        "stockQuantity": 895,
+        "createdDate": "09.11.2023 21:23:43"
+      },
+      "mechanicId": "2",
+      "dealerId": "1",
+      "quantity": 1,
+      "createdDate": "10.11.2023 20:51:32",
+      "id": 7
+    },
+    {
+      "part": {
+        "id": 5,
+        "dealerId": "2",
+        "name": "Hot spy",
+        "description": "2",
+        "stockQuantity": 12,
+        "createdDate": "09.11.2023 21:27:17"
+      },
+      "mechanicId": "1",
+      "dealerId": "2",
+      "quantity": 1,
+      "createdDate": "10.11.2023 20:59:15",
+      "id": 8
+    },
+    {
+      "part": {
+        "id": 10,
+        "dealerId": "7",
+        "name": "MS Part",
+        "description": "21",
+        "stockQuantity": 122.89,
+        "createdDate": "11.11.2023 00:10:02"
+      },
+      "mechanicId": "3",
+      "dealerId": "7",
+      "quantity": 4,
+      "createdDate": "11.11.2023 00:10:12",
+      "id": 9
+    }
+  ]
+}

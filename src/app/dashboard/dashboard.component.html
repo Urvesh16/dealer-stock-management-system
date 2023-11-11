@@ -1,0 +1,26 @@
+<div class="dashboard-container">
+  <div class="header">
+    <h1>Welcome to the Dashboard</h1>
+    <div class="mt12">
+      <button class="logout-button" (click)="logout()">Log Out</button>
+    </div>
+  </div>
+
+  <div *ngIf="((isAdmin || isDealer ) &&  isAuthenticated)" class="dashboard-section">
+    <h2>Your Role: {{ isAdmin ? 'Admin' : 'Dealer' }}</h2>
+
+    <div class="module-names" *ngIf="isAdmin">
+      <button routerLink="/dashboard/dealer" [@fadeInOut]>Dealer</button>
+      <button routerLink="/dashboard/mechanic" [@fadeInOut]>Mechanic</button>
+      <button routerLink="/dashboard/part" [@fadeInOut]>Part</button>
+      <button routerLink="/dashboard/part-management" [@fadeInOut]>Part Management</button>
+    </div>
+  </div>
+
+  <div *ngIf="!isAdmin && !isDealer" class="dashboard-section">
+    <h2>Unauthorized Access</h2>
+    <p>You don't have permission to access this page.</p>
+  </div>
+
+  <router-outlet *ngIf="!(!isAdmin && !isDealer)"></router-outlet>
+</div>

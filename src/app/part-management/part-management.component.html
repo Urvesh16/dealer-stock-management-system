@@ -1,0 +1,78 @@
+<!-- Part Management (Transaction Screen) -->
+<div class="part-management-container">
+  <h2>Part Management (Transaction Screen)</h2>
+
+  <!-- Dealer Selection -->
+  <div class="dealer-selection">
+    <label for="dealerSelect">Select Dealer:</label>
+    <select id="dealerSelect" (change)="onDealerChange($event)">
+      <option value="">Select a Dealer</option>
+      <option *ngFor="let dealer of dealers" [value]="dealer.id">{{ dealer.name }}</option>
+    </select>
+  </div>
+
+  <!-- Parts Available -->
+  <div class="part-list">
+    <h3>Parts Available</h3>
+    <div class="card-container">
+      <div *ngFor="let cartItem of cartManagement" class="part-card">
+        <div class="card-header">
+          <strong>Name:</strong> {{ cartItem.part.name }}
+        </div>
+        <div class="card-body">
+          <p><strong>Description:</strong> {{ cartItem.part.description }}</p>
+          <p><strong>Stock Quantity:</strong> {{ cartItem.part.stockQuantity | number | decimalSpace  }}</p>
+      
+          <!-- Mechanic Selection -->
+          <label for="mechanicSelect{{ cartItem.part.id }}">Select Mechanic:</label>
+          <select id="mechanicSelect{{ cartItem.part.id }}" [(ngModel)]="cartItem.mechanicId">
+            <option value="0" disabled>Select a Mechanic</option>
+            <option *ngFor="let mechanic of mechanics" [value]="mechanic.id">{{ mechanic.name }}</option>
+          </select>
+      
+          <!-- Quantity Input -->
+          <div class="quantity-input">
+            <label for="quantityInput{{ cartItem.part.id }}">Quantity:</label>
+            <div class="input-group">
+              <button class="quantity-btn" (click)="decrementQuantity(cartItem)">-</button>
+              <span class="quantity-label">{{ cartItem.quantity }}</span>
+              <button class="quantity-btn" (click)="incrementQuantity(cartItem)">+</button>
+            </div>
+          </div>
+      
+          <!-- Add to Cart Button -->
+          <button (click)="addToCart(cartItem)" [ngStyle]="{'background-color': !(cartItem.mechanicId  &&  cartItem.quantity>0) ? '#ddd' : '#428bca ', 'color': !(cartItem.mechanicId  &&  cartItem.quantity>0)? '#666' : 'white', 'cursor': !(cartItem.mechanicId  &&  cartItem.quantity>0) ? 'not-allowed' : 'pointer'}" [disabled]="!(cartItem.mechanicId  &&  cartItem.quantity>0)  ">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Details -->
+  <div class="cart-details">
+    <h3>Cart Details</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Dealer</th>
+          <th>Part Name</th>
+          <th>Mechanic Name</th>
+          <th>Quantity</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cartItem of cart">
+          <td>{{ getDealerName(cartItem.dealerId) }}</td>
+          <td>{{ cartItem.part.name }}</td>
+          <td>{{ getMechanicName(cartItem.mechanicId) }}</td>
+          <td>{{ cartItem.quantity }}</td>
+          <td>{{ cartItem.createdDate | date: 'dd.MM.yyyy HH:mm:ss' }}</td>
+          <td>
+            <button (click)="deleteCartItem(cartItem)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

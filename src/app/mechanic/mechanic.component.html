@@ -1,0 +1,68 @@
+<div class="mechanic-container">
+    <h2>Mechanic Details</h2>
+  
+    <!-- Mechanic List -->
+    <div class="mechanic-list">
+      <h3>Mechanic List</h3>
+      <ul>
+        <li *ngFor="let mechanic of mechanics">
+          <div class="mechanic-info">
+            <div>
+              <strong>Name:</strong> {{ mechanic.name }}
+            </div>
+            <div>
+              <strong>Email:</strong> {{ mechanic.email }}
+            </div>
+            <div>
+              <strong>Contact Number:</strong> {{ mechanic.mobileNo }}
+            </div>
+            <div>
+              <strong>Birth Date:</strong> {{ mechanic.birthDate | date: 'dd.MM.yyyy' }}
+            </div>
+            <div>
+                <strong>Dealer:</strong> {{ getDealerName(mechanic.dealerId) }}
+              </div>
+              <div>
+                <strong>Created/Update Date:</strong> {{ mechanic.createdDate | date: 'dd.MM.yyyy HH:mm:ss' }}
+              </div>
+          </div>
+          <div class="mechanic-actions">
+            <button (click)="editMechanic(mechanic)">Edit</button>
+            <button class="mrt12" (click)="deleteMechanic(mechanic)">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Mechanic Form -->
+    <div class="mechanic-form">
+      <h3>{{ isEditing ? 'Edit Mechanic' : 'Add Mechanic' }}</h3>
+      <form (ngSubmit)="submitForm()" #mechanicForm="ngForm">
+        <div class="form-group">
+          <div class="flex"> <label for="dealerId">Dealer:</label><label class="required-label">*</label></div>
+          <select id="dealerId" name="dealerId" [(ngModel)]="mechanic.dealerId" required>
+            <option value="0" disabled>Select a Dealer</option>
+            <option *ngFor="let dealer of dealers" [value]="dealer.id">{{ dealer.name }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <div class="flex">  <label for="name">Name:</label><label class="required-label">*</label></div>
+          <input type="text" id="name" name="name" [(ngModel)]="mechanic.name" required>
+        </div>
+        <div class="form-group">
+          <div class="flex">   <label for="email">Email:</label><label class="required-label">*</label></div>
+          <input type="email" id="email" name="email" [(ngModel)]="mechanic.email" required>
+        </div>
+        <div class="form-group">
+          <div class="flex">  <label for="mobileNo">Contact Number:</label><label class="required-label">*</label></div>
+          <input type="text" id="mobileNo" name="mobileNo" [(ngModel)]="mechanic.mobileNo" required>
+        </div>
+        <div class="form-group">
+          <div class="flex">   <label for="birthDate">Birth Date:</label><label class="required-label">*</label></div>
+          <input type="date" id="birthDate" name="birthDate" [(ngModel)]="mechanic.birthDate" required>
+        </div>
+        <button type="submit" [ngStyle]="{'background-color': !(mechanicForm.form.valid && mechanic.dealerId>0) ? '#ddd' : '#428bca ', 'color': !(mechanicForm.form.valid  && mechanic.dealerId>0)? '#666' : 'white', 'cursor': !(mechanicForm.form.valid  && mechanic.dealerId>0) ? 'not-allowed' : 'pointer'}" [disabled]="!(mechanicForm.form.valid  && mechanic.dealerId>0)  ">{{ isEditing ? 'Update Mechanic' : 'Add Mechanic' }}</button>
+      </form>
+    </div>
+  </div>
+  
